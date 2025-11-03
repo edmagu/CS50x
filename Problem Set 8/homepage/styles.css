@@ -1,0 +1,32 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f8fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #2a4d9b;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  background-color: #e9ecef;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+#formStatus {
+  font-weight: bold;
+}

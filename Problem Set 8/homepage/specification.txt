@@ -1,0 +1,5 @@
+HTML Tags (10+): nav, header, footer, section, main, h1, h2, p, ul, li, img, form, button, input, textarea, a
+CSS Selectors (5+): body, h1,h2, p, ul, footer, .navbar-brand, #formStatus
+CSS Properties (5+): font-family, background-color, color, margin, padding, line-height, font-weight
+JavaScript: Adds interactivity via a greeting alert button and a contact form submission message.
+Bootstrap: Used for the responsive navbar, buttons, forms, and grid layout.

@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: sort1 runs fastest on sorted input but slower on unsorted or reversed input, consistent with bubble sort’s O(n) best case and O(n²) worst case due to repeated adjacent swaps.
+
+sort2 uses: merge sort
+
+How do you know?: sort2 performs consistently fast regardless of input order, scaling efficiently as O(n log n), characteristic of merge sort’s divide-and-conquer approach.
+
+sort3 uses: selection sort
+
+How do you know?: sort3’s runtime remains roughly constant for all input orders, indicating O(n²) selection sort that always scans the unsorted portion to find the smallest element each pass.

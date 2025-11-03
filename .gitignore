@@ -1,0 +1,4 @@
+# Ignore compiled CS50 library and build outputs
+Problem Set 1/mario-more/libcs50/build/
+venv/
+*.so
