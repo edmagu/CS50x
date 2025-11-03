@@ -16,3 +16,8 @@ Problem Set 1/mario-more/libcs50/build/
 # Ignore editor and system files
 .DS_Store
 .vscode/
+
+notepad .gitignore
+
+# Ignore all database files
+*.db
