@@ -1,4 +1,18 @@
-# Ignore compiled CS50 library and build outputs
-Problem Set 1/mario-more/libcs50/build/
+# Ignore virtual environments
 venv/
+__pycache__/
+
+# Ignore build outputs
+*.o
 *.so
+*.a
+*.out
+build/
+dist/
+
+# Ignore CS50 lib builds
+Problem Set 1/mario-more/libcs50/build/
+
+# Ignore editor and system files
+.DS_Store
+.vscode/
