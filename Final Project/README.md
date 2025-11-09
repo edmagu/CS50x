@@ -1,14 +1,14 @@
 # OrganizeMyMusic: Smart Music Organizer
-#### Video Demo: <https://youtu.be/YOUR_VIDEO_URL_HERE>
+#### Video Demo: <https://youtu.be/KWSbjdbCuQk>
 #### Description:
 
-AutoDJ is a web application that automatically organizes music files by genre.  
+OrganizeMyMusic is a web application that automatically organizes music files by genre.  
 You can upload multiple `.mp3` or `.wav` files, and the app will read each file’s metadata (artist, title, and genre), rename them properly, and sort them into folders by genre.
 
 The app is built with **Flask (Python)** for the backend and **Bootstrap 5** for the user interface.  
 It uses the **Mutagen** library to extract information from audio files and then organizes them automatically in the `uploads` folder.
 
-When you upload your music, AutoDJ:
+When you upload your music, OrganizeMyMusic:
 1. Reads the file’s metadata (artist, title, and genre).
 2. Renames the file to a clean format like `Artist - Song Title.mp3`.
 3. Creates a folder for each genre (if it doesn’t exist already).
@@ -42,7 +42,7 @@ Run the app with:
 flask run
 
 
-Upload your songs, click “Upload & Organize,” and AutoDJ will instantly rename and sort them for you.
+Upload your songs, click “Upload & Organize,” and OrganizeMyMusic will instantly rename and sort them for you.
 
 **Future Improvements:**
 - Add a built-in music player on the results page  
