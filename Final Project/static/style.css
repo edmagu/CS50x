@@ -1,0 +1,58 @@
+body {
+  background: radial-gradient(circle at top left, #1a1a1f, #0b0b0e);
+  color: #f8f9fa;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+#upload-form {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#upload-form:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(138, 43, 226, 0.5);
+}
+
+#drop-zone {
+  border: 2px dashed #6c757d;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+#drop-zone.drag-over {
+  background-color: rgba(138, 43, 226, 0.1);
+  border-color: #6610f2;
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);
+}
+
+table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+thead {
+  background: linear-gradient(90deg, #007bff, #6610f2);
+  color: white;
+}
+table td, table th {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #007bff, #6610f2);
+  border: none;
+}
+.btn-primary:hover {
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.7);
+}
+
+.progress {
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-bar {
+  font-weight: 600;
+}
+
+footer {
+  opacity: 0.8;
+  margin-top: 80px;
+}
